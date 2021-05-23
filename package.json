@@ -4,8 +4,12 @@
   "description": "Bot discord français et qualitatif",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Mothii",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "ms": "^2.1.3"
+  }
 }
